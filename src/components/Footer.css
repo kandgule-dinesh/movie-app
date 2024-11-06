@@ -1,7 +1,22 @@
 .footer {
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    text-align: center;
-  }
-  
+  bottom: 0;
+  width: 100%;
+  padding: 15px 20px;
+  background: linear-gradient(135deg, #222, #1a1a1a);
+  color: #bbb;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #888;
+}
+
+.footer p:hover {
+  color: #f39c12;
+  transition: color 0.3s ease;
+}
